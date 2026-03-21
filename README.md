@@ -83,11 +83,11 @@ git push origin feature-update
 
 ## Comandos Git principales
 
-git commit
-git push origin
+1. git commit
+2. git push origin
 
-chmod +x scripts/deploy.sh
-./scripts/deploy.sh
-git add
-git clone
-git config
+3. chmod +x scripts/deploy.sh
+4. ./scripts/deploy.sh
+5. git add
+6. git clone
+7. git config
