@@ -33,8 +33,8 @@ Parte 1: Configuración inicial
 - git config --global user.email "tuemail@example.com"
 - Crea un repositorio en GitHub llamado mi-proyecto-devops y clónalo:
 
--git clone https://github.com/TU-USUARIO/mi-proyecto-devops.git
--cd mi-proyecto-devops
+    git clone https://github.com/TU-USUARIO/mi-proyecto-devops.git
+    cd mi-proyecto-devops
 Parte 2: Creación del proyecto
 -Crea la estructura de carpetas y archivos indicada anteriormente.
 
@@ -64,21 +64,22 @@ Crea el archivo scripts/deploy.sh con el siguiente contenido:
     echo "Archivos listos para producción"
 Da permisos de ejecución y ejecútalo:
 
-chmod +x scripts/deploy.sh
-./scripts/deploy.sh
+    chmod +x scripts/deploy.sh
+    ./scripts/deploy.sh
 Realiza el commit:
 
-git add scripts/deploy.sh
-git commit -m "Script de despliegue simulado"
-git push origin main
+    git add scripts/deploy.sh
+    git commit -m "Script de despliegue simulado"
+    git push origin main
 Parte 5: Trabajo con ramas
-git checkout -b feature-update
+    git checkout -b feature-update
 Agrega una nueva sección al archivo index.html:
 
-<p>Este proyecto utiliza GitHub como plataforma DevOps.</p>
-git add src/index.html
-git commit -m "Nueva sección agregada"
-git push origin feature-update
+    <p>Este proyecto utiliza GitHub como plataforma DevOps.</p>
+    
+    git add src/index.html
+    git commit -m "Nueva sección agregada"
+    git push origin feature-update
 
 
 ## Comandos Git principales
