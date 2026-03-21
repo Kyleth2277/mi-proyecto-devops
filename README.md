@@ -33,35 +33,35 @@ Parte 1: Configuración inicial
 - git config --global user.email "tuemail@example.com"
 - Crea un repositorio en GitHub llamado mi-proyecto-devops y clónalo:
 
-git clone https://github.com/TU-USUARIO/mi-proyecto-devops.git
-cd mi-proyecto-devops
+-git clone https://github.com/TU-USUARIO/mi-proyecto-devops.git
+-cd mi-proyecto-devops
 Parte 2: Creación del proyecto
-Crea la estructura de carpetas y archivos indicada anteriormente.
+-Crea la estructura de carpetas y archivos indicada anteriormente.
 
 Contenido base del archivo index.html:
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Proyecto DevOps</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Proyecto DevOps con GitHub</h1>
-    <p>Este sitio forma parte de una práctica de control de versiones.</p>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Proyecto DevOps</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Proyecto DevOps con GitHub</h1>
+        <p>Este sitio forma parte de una práctica de control de versiones.</p>
+    </body>
+    </html>
 Parte 3: Primer commit
-git add .
-git commit -m "Estructura inicial del proyecto"
-git push origin main
+-git add .
+-git commit -m "Estructura inicial del proyecto"
+-git push origin main
 Parte 4: Simulación de despliegue
 Crea el archivo scripts/deploy.sh con el siguiente contenido:
 
-#!/bin/bash
-echo "Simulando despliegue del sitio web..."
-echo "Archivos listos para producción"
+    #!/bin/bash
+    echo "Simulando despliegue del sitio web..."
+    echo "Archivos listos para producción"
 Da permisos de ejecución y ejecútalo:
 
 chmod +x scripts/deploy.sh
