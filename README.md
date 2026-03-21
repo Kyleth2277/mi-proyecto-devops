@@ -29,12 +29,13 @@ Al finalizar la actividad, el alumno será capaz de:
 ## Flujo de trabajo:
 
 Parte 1: Configuración inicial
-- git config --global user.name "Tu Nombre"
-- git config --global user.email "tuemail@example.com"
+    git config --global user.name "Tu Nombre"
+    git config --global user.email "tuemail@example.com"
 - Crea un repositorio en GitHub llamado mi-proyecto-devops y clónalo:
 
     git clone https://github.com/TU-USUARIO/mi-proyecto-devops.git
     cd mi-proyecto-devops
+    
 Parte 2: Creación del proyecto
 -Crea la estructura de carpetas y archivos indicada anteriormente.
 
@@ -57,7 +58,7 @@ Parte 3: Primer commit
     git add .
     git commit -m "Estructura inicial del proyecto"
     git push origin main
-    
+
 Parte 4: Simulación de despliegue
 Crea el archivo scripts/deploy.sh con el siguiente contenido:
 
