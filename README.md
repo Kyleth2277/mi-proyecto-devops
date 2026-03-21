@@ -17,21 +17,21 @@ Al finalizar la actividad, el alumno será capaz de:
 
 ## Estructura del repositorio
 
-mi-proyecto-devops/
-│── src/
-│   ├── index.html
-│   ├── styles.css
-│── scripts/
-│   └── deploy.sh
-│── README.md
-│── .gitignore
+- mi-proyecto-devops/
+- │── src/
+- │   ├── index.html
+- │   ├── styles.css
+- │── scripts/
+- │   └── deploy.sh
+- │── README.md
+- │── .gitignore
 
 ## Flujo de trabajo:
 
 Parte 1: Configuración inicial
-git config --global user.name "Tu Nombre"
-git config --global user.email "tuemail@example.com"
-Crea un repositorio en GitHub llamado mi-proyecto-devops y clónalo:
+- git config --global user.name "Tu Nombre"
+- git config --global user.email "tuemail@example.com"
+- Crea un repositorio en GitHub llamado mi-proyecto-devops y clónalo:
 
 git clone https://github.com/TU-USUARIO/mi-proyecto-devops.git
 cd mi-proyecto-devops
