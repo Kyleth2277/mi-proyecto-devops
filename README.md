@@ -31,13 +31,13 @@ Al finalizar la actividad, el alumno será capaz de:
 Parte 1: Configuración inicial
     git config --global user.name "Tu Nombre"
     git config --global user.email "tuemail@example.com"
-- Crea un repositorio en GitHub llamado mi-proyecto-devops y clónalo:
+Crea un repositorio en GitHub llamado mi-proyecto-devops y clónalo:
 
     git clone https://github.com/TU-USUARIO/mi-proyecto-devops.git
     cd mi-proyecto-devops
-    
+
 Parte 2: Creación del proyecto
--Crea la estructura de carpetas y archivos indicada anteriormente.
+- Crea la estructura de carpetas y archivos indicada anteriormente.
 
 Contenido base del archivo index.html:
 
