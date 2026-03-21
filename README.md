@@ -53,9 +53,11 @@ Contenido base del archivo index.html:
     </body>
     </html>
 Parte 3: Primer commit
+
     git add .
     git commit -m "Estructura inicial del proyecto"
     git push origin main
+    
 Parte 4: Simulación de despliegue
 Crea el archivo scripts/deploy.sh con el siguiente contenido:
 
