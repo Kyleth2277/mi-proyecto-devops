@@ -53,9 +53,9 @@ Contenido base del archivo index.html:
     </body>
     </html>
 Parte 3: Primer commit
--git add .
--git commit -m "Estructura inicial del proyecto"
--git push origin main
+    git add .
+    git commit -m "Estructura inicial del proyecto"
+    git push origin main
 Parte 4: Simulación de despliegue
 Crea el archivo scripts/deploy.sh con el siguiente contenido:
 
@@ -76,7 +76,7 @@ Parte 5: Trabajo con ramas
 Agrega una nueva sección al archivo index.html:
 
     <p>Este proyecto utiliza GitHub como plataforma DevOps.</p>
-    
+
     git add src/index.html
     git commit -m "Nueva sección agregada"
     git push origin feature-update
